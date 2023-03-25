@@ -1,6 +1,6 @@
 {
   "name": "@lalo3k/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "These are settings for ESLint and Prettier that I use in my projects.",
   "main": "index.js",
   "publishConfig": {
