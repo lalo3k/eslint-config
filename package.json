@@ -1,7 +1,7 @@
 {
   "name": "@lalo3k/linting",
   "version": "0.0.0",
-  "description": "semi-strict linting rules, to ensure consistency in file structure, formatting and coding style",
+  "description": "These are settings for ESLint and Prettier that I use in my projects.",
   "main": "index.js",
   "scripts": {
     "test": "test"

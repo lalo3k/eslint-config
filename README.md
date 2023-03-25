@@ -19,6 +19,6 @@ Semi-strict linting rules, to ensure consistency in file structure, formatting a
 }
 ```
 
-3. Copy the [.prettierrc](https://github.com/lalo3k/linting/blob/master/.prettierrc) file from this repository into your project folder
+3. Copy the [.prettierrc](https://github.com/lalo3k/linting/blob/main/.prettierrc) file from this repository into your project folder
 
 4. Feel free to override the rules that are not right for your project
