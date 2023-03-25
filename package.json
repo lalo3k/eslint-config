@@ -1,8 +1,11 @@
 {
-  "name": "@lalo3k/linting",
+  "name": "@lalo3k/eslint-config",
   "version": "0.0.1-6",
   "description": "These are settings for ESLint and Prettier that I use in my projects.",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "test",
     "publish": "npm publish --access public && git push",
@@ -13,42 +16,41 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lalo3k/linting.git"
+    "url": "git+https://github.com/lalo3k/eslint-config.git"
   },
   "keywords": [
-    "linting",
+    "eslintconfig",
     "eslint"
   ],
   "author": "lalo3k",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lalo3k/linting/issues"
+    "url": "https://github.com/lalo3k/eslint-config/issues"
   },
-  "homepage": "https://github.com/lalo3k/linting#readme",
+  "homepage": "https://github.com/lalo3k/eslint-config#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.56.0",
-    "@typescript-eslint/parser": "^5.56.0",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx": "^0.1.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "prettier": "^2.8.7"
+    "prettier": "^2.8.7",
+    "react": "^18.2.0",
+    "typescript": "^5.0.2"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.56.0",
-    "@typescript-eslint/parser": "^5.56.0",
-    "eslint": "^8.36.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsx": "^0.1.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
-    "prettier": "^2.8.7"
+    "@typescript-eslint/eslint-plugin": ">=5.56.0",
+    "eslint": ">=8.36.0",
+    "eslint-config-prettier": ">=8.8.0",
+    "eslint-plugin-import": ">=2.27.5",
+    "eslint-plugin-jsx": ">=0.1.0",
+    "eslint-plugin-prettier": ">=4.2.1",
+    "eslint-plugin-simple-import-sort": ">=10.0.0",
+    "prettier": ">=2.8.7"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.56.0"
   }
 }
