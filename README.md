@@ -1,9 +1,10 @@
-# ESLint (and Prettier) config
-These are settings for ESLint and Prettier that I use in my projects.
+# ESLint config
+These are settings for ESLint that I use in my projects.
 
 ## What it does
 Semi-strict linting rules, to ensure consistency in file structure, formatting and coding style
 
+## Setup
 1. In your project folder, run:
 ```
     npm i --save-dev @lalo3k/linting
